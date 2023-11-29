@@ -61,7 +61,7 @@ for sentence in df.head(50).iterrows():
 
     insert_query = '''
             INSERT INTO SENTENCE_PREDICTION (input_text, finetune_prediction, predefined_prediction, sentence_labels)
-            VALUES (%s, %s, %s)
+            VALUES (%s, %s, %s, %s)
         '''
     values = (sentence[1].sentences, 
               prediciton_finetune, 
