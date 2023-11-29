@@ -18,7 +18,7 @@ class OpenIEExtractor:
 
 # Example usage
 obj1 = OpenIEExtractor()
-text = '[E1]Rocky Subramanian[/E1], SVP & MD of [E2]SAP[/E2], talks us through the benefits of human and tech augmentation in the manufacturing industry   .'
+text = 'Barack Obama was born in Hawaii.'
 #text='Amazon CEO Jeff Bezos stepped down from his position.'
 #obj1.extract_relations(text)
 prediction1=obj1.extract_relations(text)

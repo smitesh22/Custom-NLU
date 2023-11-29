@@ -1,10 +1,12 @@
 import mysql.connector
 from class_predefined import OpenIEExtractor
+from class_custom_train1 import CustomBertModel
 import pandas as pd
 import os
 
 # Set the CORENLP_HOME environment variable
 os.environ['CORENLP_HOME'] = '/home/smitesh22/.stanfordnlp_resources/stanford-corenlp-4.5.3'
+
 
 connection = mysql.connector.connect(
     host="localhost",
@@ -44,20 +46,27 @@ else:
     print("Table exists")
 
 
-obj = OpenIEExtractor()
+pretrained_model = OpenIEExtractor()
+finetuned_model = CustomBertModel(model_name="bert-base-uncased", num_labels=4, checkpoint_path='version_0/version_0/checkpoints/epoch=1-step=356.ckpt')
 
 df = pd.read_csv("combination_spin.csv")
+
 for sentence in df.head(50).iterrows():
 
-    prediction = obj.extract_relations(sentence[1].sentences)
-    print(f"Predicted Relation: {prediction}")
+    prediction_pretrained = pretrained_model.extract_relations(sentence[1].sentences)
+    prediciton_finetune = finetuned_model.predict_relation(sentence[1].sentences)
 
-    
+    print(f"Predicted Relation for pretrained model: {prediction_pretrained}")
+    print(f"Predicted Relation for finetune model: {prediciton_finetune}")
+
     insert_query = '''
-            INSERT INTO SENTENCE_PREDICTION (input_text, predefined_prediction, sentence_labels)
+            INSERT INTO SENTENCE_PREDICTION (input_text, finetune_prediction, predefined_prediction, sentence_labels)
             VALUES (%s, %s, %s)
         '''
-    values = (sentence[1].sentences, prediction, sentence[1].relations)
+    values = (sentence[1].sentences, 
+              prediciton_finetune, 
+              prediction_pretrained, 
+              sentence[1].relations)
 
     cursor.execute(insert_query, values)
 
@@ -65,3 +74,5 @@ for sentence in df.head(50).iterrows():
     print(f"Data for sentence '{sentence[1].sentences}' inserted successfully.")
     
 connection.close()
+
+
