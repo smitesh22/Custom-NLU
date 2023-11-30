@@ -3,6 +3,7 @@ from class_predefined import OpenIEExtractor
 from class_custom_train1 import CustomBertModel
 import pandas as pd
 import os
+import json
 
 # Set the CORENLP_HOME environment variable
 os.environ['CORENLP_HOME'] = '/home/smitesh22/.stanfordnlp_resources/stanford-corenlp-4.5.3'
@@ -49,12 +50,13 @@ else:
 pretrained_model = OpenIEExtractor()
 finetuned_model = CustomBertModel(model_name="bert-base-uncased", num_labels=4, checkpoint_path='version_0/version_0/checkpoints/epoch=1-step=356.ckpt')
 
-df = pd.read_csv("combination_spin.csv")
+with open('tweets.json', 'r') as file:
+    tweets = json.load(file)
 
-for sentence in df.head(50).iterrows():
+for sentence in tweets:
 
-    prediction_pretrained = pretrained_model.extract_relations(sentence[1].sentences)
-    prediciton_finetune = finetuned_model.predict_relation(sentence[1].sentences)
+    prediction_pretrained = pretrained_model.extract_relations(sentence)
+    prediciton_finetune = finetuned_model.predict_relation(sentence)
 
     print(f"Predicted Relation for pretrained model: {prediction_pretrained}")
     print(f"Predicted Relation for finetune model: {prediciton_finetune}")
@@ -63,15 +65,15 @@ for sentence in df.head(50).iterrows():
             INSERT INTO SENTENCE_PREDICTION (input_text, finetune_prediction, predefined_prediction, sentence_labels)
             VALUES (%s, %s, %s, %s)
         '''
-    values = (sentence[1].sentences, 
+    values = (sentence, 
               prediciton_finetune, 
               prediction_pretrained, 
-              sentence[1].relations)
+              "temp")
 
     cursor.execute(insert_query, values)
 
     connection.commit()
-    print(f"Data for sentence '{sentence[1].sentences}' inserted successfully.")
+    
     
 connection.close()
 
