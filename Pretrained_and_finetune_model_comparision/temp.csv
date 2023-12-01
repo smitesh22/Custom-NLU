@@ -1,0 +1,51 @@
+,id,input_text,finetune_prediction,predefined_prediction,manual_answer,finetune_accuracy,pretrained_prediction_cleaned
+0,1,"Flagship coach factory of Indian Railways located at Chennai, arguably the largest rail coach manufacturer in the world. 70000+ coaches mfd so far in 75+ types.",managerOf,located,locatedAt,0,locatedAT
+1,2,"We teach, train, and develop pitchers of all ages. Home of Grady’s VIP Training Program. @rapsodo pitch design certified. Located at @velosportsohio.",managerOf,develop,locatedAt,0,noRelation
+2,3,"Official Twitter Profile of IKGPTU. I.K.Gujral Punjab Technical University is a State Govt. University located at Kapurthala highway, Jalandhar, Punjab, India",locatedAt,is,locatedAt,1,noRelation
+3,4,"Group of Brazilian volunteers fighting against Russians located in a house, one of the volunteers fires an AT-4 at the house window.",managerOf,located in,locatedAt,0,locatedAT
+4,5,There are some 6 million registered Palestinian refugees living in at least 58 camps located throughout Palestine and neighbouring countries.,managerOf,,locatedAt,0,noRelation
+5,6,"The Cliffs of Moher are located at the southwestern edge of the Burren region in County Clare, Ireland: they run for about 14 km. ",locatedAt,are,locatedAt,1,noRelation
+6,7,Anybody need a job ? Working for UHG ? It’s work from home I’m not sure of the starting pay depends on where you are located at!! I’m doing referrals ☺️send me first and last name with email.,employedBy,need,locatedAt,0,noRelation
+7,8,"There you have it: the first Apple Store in Malaysia, located at The Exchange TRX.",managerOf,is in,locatedAt,0,locatedAT
+8,9,"#DidYouKnow: Located on the #DelhiMeerutExpressway at Chipiyana Buzurg in #UP, the 115m steel truss Railway Over Bridge is facilitating smooth transit between the two cities.",employedBy,is in,locatedAt,0,locatedAT
+9,10,The second vehicle that was reported to be in connection with the terrorist attack carried out at the US northern border has just been located.,employedBy,has,locatedAt,0,noRelation
+10,11,The oldest winery in the world discovered to date is located in the Armenian Highlands and dates back to approximately 4100 BC.,managerOf,is,locatedAt,0,noRelation
+11,12,Ukrainian loitering munitions hit and destroyed a gun nest of Russian forces located on at tower west of Horlivka,locatedAt,hit,locatedAt,1,noRelation
+12,13,"Ancient, humble pews at St Nicholas, Leckford. Located at the back of the church, these small 16th century pews would give a very poor view of the activity at the altar, it's a wonder they've survived at all. ",managerOf,would give view at,locatedAt,0,noRelation
+13,14,"Jara Beach Resort is arguably the best beach resort in Lagos at the moment. The resort is located in Museyo, Eleko, Lagos and is easily accessible by road.",managerOf,is,locatedAt,0,noRelation
+14,15,Century Coffee co. located at the entrance of the City Foundry Food Hall opens this Friday!,managerOf,located at,locatedAt,0,locatedAT
+15,16,How TF did a manager of McDonald’s and Blockbuster become mother and father God?,locatedAt,become,managerOf,0,managerOf
+16,17,Erik ten Hag will be manager of the month for November with ZERO goals conceded and 3/3 wins,managerOf,will,managerOf,1,noRelation
+17,18,When Mark Goldbridge knows more ball than the manager of the biggest club in England.,managerOf,knows,managerOf,1,noRelation
+18,19,"The Manager of the Tunnel in Uttarakhand demolished the Temple outside the Tunnel to make way, soon after the demolition of the Temple the tunnel collapsed",employedBy,make way,managerOf,0,noRelation
+19,20,"Javid Dhankwala, a Microsoft manager of 10 employees in Seattle, denies charges",managerOf,denies,managerOf,1,noRelation
+20,21,He started taking the packs with him so now I call his work phone and pretend to be one of the managers and tell him to come back to the body shop for a sec so I can get into his desk,employedBy,tell,managerOf,0,noRelation
+21,22,jimin is the new manager of my coffee shop since my other one quit last week.,managerOf,is new manager,managerOf,1,noRelation
+22,23,I don’t like being manager of the shop. This is too much drama. I just like the benefits,employedBy,is,managerOf,0,noRelation
+23,24,"The manager of a fruit-and-vegetable shop places in his window, among the onions and carrots, the slogan",managerOf,of manager is,managerOf,1,noRelation
+24,25,No one will take care of you better than a smoke shop manager.,managerOf,,managerOf,1,noRelation
+25,26,Ah ye loads of employed people able to gather during the middle of the day to rob shops. Must all have very understanding managers,managerOf,,managerOf,1,noRelation
+26,27,brah the manager at my work keeps trying to make me do the back of the shop where u make the food instead of the front where u take orders PLSS HABIBTI JUST LET ME MAKE DRINKS AND TAKE ORDERS,employedBy,back of,managerOf,0,noRelation
+27,28,Carry gun and go and hold the manager of any Betnaija shop to give you 3 sure odds or else,managerOf,,managerOf,1,noRelation
+28,29,He's the president meat cutter manager of a sammich shop and king of the neighborhood!!!!,employedBy,has,managerOf,0,noRelation
+29,30,He was the manager of a hobby shop. I talked about how he criticized our work and how kind he was to young customers and beginners. I think that was his life.,managerOf,was manager of,managerOf,1,managerOf
+30,31,The former Ohio State Director of Football video AND Assistant Football Video Coordinator are both employed by catapult as senior engineers. Very interesting stuff,managerOf,are,employedBy,0,noRelation
+31,32,"He is employed by the Biden Pentagon, in charge of their department that oversees Elementary Schools.",managerOf,is employed by,employedBy,0,employedBy
+32,33,120k people are employed by the housing programme. New jobs. New employees.,managerOf,are employed by,employedBy,0,employedBy
+33,34,Do you know how many Igbos are employed by the Lagos State Civil Service Commission? ,managerOf,are employed by,employedBy,0,employedBy
+34,35,"Culinary Union members employed at Wynn Resorts have voted by 99% YES to ratify their new 5-year BEST CONTRACT EVER! Congratulations to 5,000 hospitality workers!",managerOf,employed at,employedBy,0,employedBy
+35,36,"On our streets, employed by someone, using our services!!! Make it famous",managerOf,,employedBy,0,noRelation
+36,37,18-35 who had been employed by them will maybe vote for them.,employedBy,,employedBy,1,noRelation
+37,38,The weapon is employed by the Ukrainians for combating Russian UAVs and loitering munitions.,locatedAt,is,employedBy,0,noRelation
+38,39,"The former offered shelter, while the latter actively tried to push them out of the labor market and sanction settlers who employed them.",locatedAt,,employedBy,0,noRelation
+39,40,"Hope Uzodimma, has signed a bill into law establishing a new retirement age of 65 years for teachers employed by the state government. ",managerOf,,employedBy,0,noRelation
+40,41,Ongoing investigations are scrutinizing the methods employed by Jared Kushner to secure a substantial $2 billion investment from Saudi Arabia following his departure from the White House.,managerOf,are scrutinizing,employedBy,0,noRelation
+41,42,Simon Jordan Ex-Palace Chairmen states Everton fans protest at Goodison during Sky’s live Everton v Man United game is empowering but pointless. Well he would he’s employed by none other than Talksport.,managerOf,states during,employedBy,0,noRelation
+42,43,Oh they’re employed…by Soros.,locatedAt,’re employed by,employedBy,0,employedBy
+43,44,It is 12:00 CST and Cody Kennedy is still employed by the University of Arkansas,managerOf,is,employedBy,0,noRelation
+44,45,Why are they trying to push this agenda? Why can’t people be employed by merit alone?,managerOf,are trying,employedBy,0,noRelation
+45,46,You could put me in a gulag and torture me but I'd never post it's hotter by one degree after doing one never,employedBy,torture,noRelation,0,noRelation
+46,47,"We invite Elon Musk, who visited the occupation yesterday, to visit Gaza to see the extent of the crimes committed against our people",managerOf,see,noRelation,0,noRelation
+47,48,"His mother, Shannon Armenta confirmed that her son was the one at the middle of the controversy on her Facebook page.",locatedAt,mother,noRelation,0,noRelation
+48,49, Ten Hag: “I am responsible for this. This is a project. We are going forward and making improvements so that's very hopeful”.,employedBy,am responsible for,noRelation,0,noRelation
+49,50,You talk like we some kind of hive mind or something,locatedAt,,noRelation,0,noRelation
