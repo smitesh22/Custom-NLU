@@ -18,7 +18,7 @@ class OpenIEExtractor:
 
 # Example usage
 obj1 = OpenIEExtractor()
-text = 'Barack Obama was born in Hawaii.'
+text = 'Julie Sweet is chair and chief executive officer (CEO) of Accenture, a multinational professional services company.'
 #text='Amazon CEO Jeff Bezos stepped down from his position.'
 #obj1.extract_relations(text)
 prediction1=obj1.extract_relations(text)
