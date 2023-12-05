@@ -49,3 +49,53 @@ id,input_text,finetune_prediction,pretrained_prediction,pretrained_prediction_cl
 48,"The aroma of freshly baked bread wafts through the air, enticing passersby with its delicious scent.",managerOf,wafts,managerOf,0,0,noRelation
 49,"A lone traveler walks along a deserted beach, leaving footprints in the soft sand.",managerOf,is in,managerOf,0,0,noRelation
 50,"A cat stretches lazily in the warm sunlight, finding a cozy spot for an afternoon nap.",managerOf,stretches lazily in,managerOf,0,0,noRelation
+51,"bay Faxaflói of shore southern the on Iceland, southwestern in located is Iceland of city largest and capital the Reykjavík.",managerOf,,noRelation,0,0,locatedAt
+52,"Sea Mediterranean the of part Lion, of Gulf the of coast the on located is Marsellie.",managerOf,,locatedAt,0,1,locatedAt
+53,"Maharashtra in Mumbai, headquartered 500 company multinational Fortune Indian an is Group (ABG) Birla The Aditya.",managerOf,is in,noRelation,0,0,locatedAt
+54,"6 District of part forming Afghanistan, Kabul, of fringes south-western the in locality a is Darulaman.",managerOf,of Afghanistan is,locatedAt,0,1,locatedAt
+55,Peninsula Fleurieu the of north Plains Adelaide the on situated is Adelaide.,managerOf,is Adelaide of,locatedAt,0,1,locatedAt
+56,CBD Melbourne the of south-west km 5 Phillip Port of City the in located Melbourne of area residential a is City Garden.,managerOf,,locatedAt,0,1,locatedAt
+57,Brabant Flemish of province the in located municipality and city a is Scherpenheuvel-Zichem.,managerOf,is in,noRelation,0,0,locatedAt
+58,"Bulgaria Province, Haskovo in town a is Dimitrovgrad.",managerOf,Haskovo in,noRelation,0,0,locatedAt
+59,"Mosque Badjanani the as such mosques several and port a has 1, Nationale Route the along located is which Moroni.",managerOf,,noRelation,0,0,locatedAt
+60,Barnet Friern in located hospital psychiatric Victorian large a was Hospital Friern.,managerOf,was in,managerOf,0,0,locatedAt
+61,Turkey northwestern in Çanakkale of province the in located bridge suspension road a is Bridge Çanakkale 1915 The.,managerOf,is in,managerOf,0,0,locatedAt
+62,"metres 163 at 2017 in out topped Bank, South the on located also bridge, Blackfriars One.",managerOf,the on,locatedAt,0,1,locatedAt
+63,"Podlasie the bordering Belarus, of part southwestern the in located is Bresy.",managerOf,is Bresy of,locatedAt,0,1,locatedAt
+64,"Holland,[13 North of province Dutch the in located is Amsterdam.",managerOf,,locatedAt,0,1,locatedAt
+65,"Turkey Ankara, in mosque largest the is Mosque Kocatepe The.",locatedAt,is,noRelation,1,0,locatedAt
+66,Accenture of (CEO) officer executive chief is Sweet Julie.,managerOf,is of,noRelation,1,0,managerOf
+67,Town Harrogate side Two League of manager is who player former and manager football English an is Weaver Daniel Simon.,managerOf,,noRelation,1,0,managerOf
+68,City Manchester club League Premier managing currently is who player former and manager football professional Spanish a is Guardiola Pep.,managerOf,,noRelation,1,0,managerOf
+69,"organization the of President and Officer Executive Chief of position the holds who Ki-nam, Kim by overseen is Electronics Samsung.",managerOf,Kim by,noRelation,1,0,managerOf
+70,"Officer Executive Chief the as serves who Chang, Sarah by managed is startup, technology a Innovations, Acme.",managerOf,Sarah by,managerOf,1,1,managerOf
+71,"Officer Operating Chief the as serves who Chen, Emily Dr. by directed is company, biopharmaceutical a BioTech, Nexus.",managerOf,,managerOf,1,1,managerOf
+72,"Director Managing and Officer Security Chief of role the holds who Turner, Michael by overseen is firm, cybersecurity a CipherSoft,.",employedBy,is,managerOf,0,1,managerOf
+73,"CEO and Scientist Data Chief the is who Bennett, Olivia by managed is startup, analytics data a Analytics, Novus.",managerOf,Olivia by,noRelation,1,0,managerOf
+74,"Founder and Officer Technology Chief the Foster, Alex by led is company, development reality augmented an Labs, FusionX.",managerOf,augmented,noRelation,1,0,managerOf
+75,"operations day-to-day company's the handling Manager Operations the as serves who Patel, Andrew by led is Solutions Quantum.",managerOf,has,noRelation,1,0,managerOf
+76,"organizatio the of President and Officer Executive Chief of position the holds who Wong, Brandon by overseen is Dynamics Horizon.",managerOf,President of,managerOf,1,1,managerOf
+77,"Officer Executive Chief of position the holds who Mathur, Harshil by directed is Razorpay.",managerOf,Harshil by,managerOf,1,1,managerOf
+78,"Officer Executive Chief the as acts who Goyal, Deepinder by managed is Zomato.",managerOf,Deepinder by,managerOf,1,1,managerOf
+79,"organization the of President the as acts who Sakhnini, Humam by managed is Crush, Candy of creator the King,.",managerOf,Humam by,managerOf,1,1,managerOf
+80,Group Volvo the of CEO and President been has and businessman Swedish a is Lundstedt Martin.,managerOf,,employedBy,1,0,managerOf
+81,"protection data user ensure to analyst cybersecurity a as Thompson Christopher employs Meta, now Facebook,.",managerOf,ensure to,employedBy,0,1,employedBy
+82,Facebook by employed fact-checker a is Duke Alan.,managerOf,is,locatedAt,0,0,employedBy
+83,Bears Chicago the by employed still Eberflus Matt is How.,managerOf,,employedBy,0,1,employedBy
+84,"Google by employed was Lahore, in engineer data a as worked who Iqbal, Shafiqa Sadiqabad, from native A.",employedBy,was,locatedAt,1,0,employedBy
+85,years 15 last for Meta with working is Allen Paul.,managerOf,,employedBy,0,1,employedBy
+86,placements 2016 the during industries paraffin by employed is Ali Mohammed.,managerOf,is,employedBy,0,1,employedBy
+87,Meta by employed is he if credibility less has LeCun Yann.,managerOf,has,employedBy,0,1,employedBy
+88,Tesla by employed officially is boy Your.,managerOf,is,employedBy,0,1,employedBy
+89,presence brand its enhance to specialist marketing a as Brown Michael employs Inc. Apple.,managerOf,,employedBy,0,1,employedBy
+90,"projects ambitious its for engineer aerospace an as employed White Jonathan has company, transportation space and manufacturer aerospace the SpaceX,.",managerOf,,employedBy,0,1,employedBy
+91,Tesla with compete directly that startups battery zinc-air owns who DrPatSoonShiong by employed is Mitchell Russ disinformer Tesla.,managerOf,is,employedBy,0,1,employedBy
+92,miles million a over for vehicles power could which battery lithium-ion new a developed have Tesla by employed researchers Canadian.,managerOf,,managerOf,0,0,employedBy
+93,"architecture. sustainable in specializing Group, Design Urban by employed architect an is Lee Patrick.",managerOf,,managerOf,0,0,employedBy
+94,Corporation Exxon under analyst financial a as works Johnson Sarah.,managerOf,,employedBy,0,1,employedBy
+95,Inc Services Financial of staff the on is and accountant chief the as serves Anderson Mark.,managerOf,is,employedBy,0,1,employedBy
+96,"valley the across glow warm a casting mountains, the behind sets sun The.",managerOf,sets across,managerOf,0,0,noRelation
+97,"songs lively their with day new the greeting morning, early the in chirp Birds.",managerOf,,managerOf,0,0,noRelation
+98,"scent delicious its with passersby enticing air, the through wafts bread baked freshly of aroma The.",managerOf,enticing,managerOf,0,0,noRelation
+99,"sand soft the in footprints leaving beach, deserted a along walks traveler lone A.",managerOf,deserted,managerOf,0,0,noRelation
+100,"nap afternoon an for spot cozy a finding sunlight, warm the in lazily stretches cat A.",managerOf,,managerOf,0,0,noRelation
