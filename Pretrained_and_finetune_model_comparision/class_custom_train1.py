@@ -68,6 +68,6 @@ obj2 = CustomBertModel(model_name="bert-base-uncased", num_labels=4, checkpoint_
 #sentence = 'Marie Curie was a pioneer in the field of radioactivity.'
 #sentence='Amazon CEO Jeff Bezos stepped down from his position.'
 #sentence='Albert Einstein developed the theory of relativity.'
-sentence = "Quantum Solutions is led by Andrew Patel, who serves as the Operations Manager handling the company's day-to-day operations."
+sentence = "Kroos has decided his contract renewal with Real Madrid."
 predicted_relation = obj2.predict_relation(sentence)
 print(f"Predicted Relation: {predicted_relation}")
